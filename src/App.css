@@ -10,14 +10,9 @@ body {
 }
 
 .count {
-  margin-bottom: 2rem;
-  text-align: center;
-  justify-content: center;
   display: flex;
-}
-
-.count {
-  font-size: 5em;
+  margin-bottom: 2rem;
+  font-size: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,8 +27,8 @@ body {
 }
 
 .buttons button {
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
   margin: 0 2rem;
   font-size: 5em;
   cursor: pointer;
@@ -43,6 +38,9 @@ button {
   border: 2px solid black;
   border-radius: 20px;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .app .buttons button:hover {
   font-size: 7em;
